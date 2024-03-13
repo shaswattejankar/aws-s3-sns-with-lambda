@@ -12,6 +12,8 @@ This is the Lambda code that uses boto3 to:
 
 + Do create and attach a role to Lambda for s3 and sns full access.
 
++ Put your bucket name instead of <code>your-bucket-name</code> and your email id instead of <code>test@email.com</code>
+
 + This code is only for ObjectCreate event. Adding other triggers is easy:
 
   ```bash
