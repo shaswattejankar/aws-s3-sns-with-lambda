@@ -1,5 +1,4 @@
 # aws-s3-sns-with-lambda
-# aws-s3-sns-with-lambda
 
 This is the Lambda code that uses boto3 to:
 
