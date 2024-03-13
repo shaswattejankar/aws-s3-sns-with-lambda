@@ -14,7 +14,7 @@ This is the Lambda code that uses boto3 to:
 
 + This code is only for ObjectCreate event. Adding other triggers is easy:
 
-  ```json
+  ```bash
     'Events': [
                 's3:ObjectCreated:*',
                 's3:ObjectRemoved:*',
